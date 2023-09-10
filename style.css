@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(245, 245, 245);
+    font-family: 'Kalam', cursive;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho h1 {
+    font-size: 3rem;
+    color: rgb(35, 34, 34);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(35, 34, 34);
+    text-transform: uppercase;
+    transition: 0.2s;
+    display: inline-block;  
+}
+
+.menu-item a:hover {
+    color: #000;
+    transform: scale(1.2);
+    font-weight: bold;
+}
