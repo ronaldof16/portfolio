@@ -84,6 +84,31 @@ body {
 
 .sobre-texto p {
     font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.sobre-texto a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.link-github {
+    color: rgb(94, 9, 174);
+}
+.link-linkedin {
+    color: blue;
+}
+
+.icone-github {
+    font-size: 2rem;
+    color: rgb(94, 9, 174);
+    margin-right: 0.2rem;
+}
+
+.icone-linkedin {
+    font-size: 2rem;
+    color: blue;
+    margin-right: 0.2rem;
 }
 
 /* Habilidades */
@@ -105,6 +130,9 @@ body {
     border: 2px solid transparent;
     flex: 1;
     text-align: center;
+    transition: 0.2s;
+    background: rgb(211, 203, 203);
+    border-radius: 4px;
 }
 
 .habilidades-fotos-itens p {
@@ -116,8 +144,8 @@ body {
 
 .habilidades-fotos-itens:hover {
     border-radius: 4px;
-    background: rgb(211, 203, 203);
     box-shadow: 0 0 8px rgb(66, 53, 106);
+    transform: scale(1.1);
 }
 
 /* Projetos */
