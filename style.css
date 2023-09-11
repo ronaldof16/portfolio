@@ -52,7 +52,7 @@ body {
 #sobre {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 2rem 0.75rem;
+    padding: 3rem 0.75rem;
 }
 
 .subtitulo {
@@ -91,7 +91,7 @@ body {
 #habilidades {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 2rem 0.75rem;
+    padding: 3rem 0.75rem;
 }
 
 .habilidades-fotos {
@@ -118,4 +118,50 @@ body {
     border-radius: 4px;
     background: rgb(211, 203, 203);
     box-shadow: 0 0 8px rgb(66, 53, 106);
+}
+
+/* Projetos */
+
+#projetos {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 0.75rem;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+}
+
+.projetos-item {
+    background: rgb(197, 193, 193);
+    flex: 1 1 300px;
+    transition: 0.2s;
+    border-radius: 4px;
+    padding: 1rem;
+    font-weight: 500;      
+}
+
+.projetos-item:hover {
+    box-shadow: 0px 0px 8px rgb(66, 53, 106);
+    transform: scale(1.1);
+}
+
+.projetos-item a {
+    text-decoration: none;
+    color: rgb(35, 34, 34);
+    font-size: 2rem;
+    font-weight: 500;
+    transition: 0.2s;
+    
+}
+
+.projetos-item a:hover {
+    font-weight: bold;
+}
+
+.projetos-item p {
+    font-size: 1.125rem;   
 }
