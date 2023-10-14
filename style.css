@@ -12,6 +12,11 @@ body {
     color: rgb(35, 34, 34);
 }
 
+.body-dl {
+    color: white;
+    background: #060c13;
+}
+
 /* Cabeçalho */
 
 .cabecalho {
@@ -23,8 +28,31 @@ body {
     align-items: center;
 }
 
+.btn {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-right: 0.75rem;
+    text-align: right;
+}
+
+button {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    background: #4f6378;
+    padding: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #d9e2e4;
+    font-weight: 600;
+}
+
 .cabecalho h1 {
-    font-size: 3rem;
+    font-size: 3rem;   
+}
+
+.titulo-dl {
+    color: white;
 }
 
 .menu {
@@ -38,16 +66,27 @@ body {
     text-transform: uppercase;
     transition: 0.2s;
     display: inline-block; 
-    color: rgb(35, 34, 34); 
+    color: rgb(35, 34, 34);  
     background: white;
     padding: 0.4rem 0.8rem;
     border-radius: 4px;
+}
+
+.link-menu-dl {
+    background-color: #172c3f;
+    color: white;
+    background: #000;
 }
 
 .menu-item a:hover {
     color: #000;
     transform: scale(1.2);
     font-weight: bold;
+    background: #d1d4d8;
+}
+
+.link-menu-dl a:hover {
+    color: white;
 }
 
 /* Sobre */
@@ -98,6 +137,7 @@ body {
 .link-github {
     color: rgb(94, 9, 174);
 }
+
 .link-linkedin {
     color: blue;
 }
@@ -131,12 +171,15 @@ body {
 
 .habilidades-fotos-itens {
     border: 2px solid transparent;
-    
     text-align: center;
     transition: 0.2s;
     background: rgb(211, 203, 203);
     border-radius: 4px;
     padding: 2rem;
+}
+
+.habilidades-fotos-itens-dl {
+    background: #172c3f;
 }
 
 .habilidades-fotos-itens p {
@@ -176,6 +219,10 @@ body {
     font-weight: 500;      
 }
 
+.projetos-item-dl {
+    background: #172c3f;
+}
+
 .projetos-item:hover {
     box-shadow: 0px 0px 8px rgb(66, 53, 106);
     transform: scale(1.1);
@@ -190,6 +237,11 @@ body {
     background: white;
     padding: 0px 1rem;
     border-radius: 4px;
+}
+
+.link-projetos-dl {
+    color: white;
+    background: #4f6378;
 }
 
 .projetos-item p {
@@ -207,6 +259,10 @@ footer {
 footer p {
     text-align: center;
     padding: 1.5rem;
+}
+
+.footer-dl {
+    background: #0a151f;
 }
 
 /* Responsividade */
